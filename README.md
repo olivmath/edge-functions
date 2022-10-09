@@ -1,7 +1,10 @@
 # Edge Functions
 
-
 Write, Test and Deploy your Edge Functions with `Azion Funks`
+
+![](/assets/mascote.png)
+
+---
 
 ## How to install
 
