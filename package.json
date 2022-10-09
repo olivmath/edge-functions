@@ -1,5 +1,5 @@
 {
-    "name": "azion_sdk",
+    "name": "edge_azion",
     "version": "0.2.0",
     "description": "",
     "main": "lib/index.js",
@@ -19,7 +19,7 @@
     "author": "Lucas Oliveira",
     "license": "Apache-2.0",
     "scripts": {
-        "deploy": "yarn build && yarn publish",
+        "pub": "yarn b && yarn publish",
         "fmt": "prettier -w .",
         "fmtc": "prettier -c",
         "r": "yarn b && node main.js",
