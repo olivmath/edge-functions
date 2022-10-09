@@ -6,11 +6,11 @@ Write, Test and Deploy your Edge Functions with `Azion Funks`
 ## How to install
 
 ```
-npm install azion-funks
+npm i -g azion-funks
 ```
 
 ```
-yarn install azion-funks
+yarn add -g azion-funks
 ```
 
 ## How to works - 4 Steps
