@@ -7,7 +7,7 @@ export async function createEdgeFunctions(
     name: string,
     token: string,
     code: string,
-    args: object
+    args: object = {}
 ): Promise<Azion> {
     HEADERS.Authorization = `Token ${token}`
     Object.assign(HEADERS, { "Content-Type": "application/json" })
