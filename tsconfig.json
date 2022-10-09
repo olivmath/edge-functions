@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "esModuleInterop": true,
+        "noUnusedLocals": true,
+        "module": "commonjs",
+        "declaration": true,
+        "outDir": "./lib",
+        "target": "es6",
+        "strict": true
+    },
+    "exclude": ["node_modules", "**/*.test.ts"],
+    "include": ["src/**/*"]
+}
