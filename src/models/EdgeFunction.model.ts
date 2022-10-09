@@ -18,7 +18,7 @@ export async function createEdgeFunctions(
             fs.readFileSync(`functions/${code}`).toString().toString()
         ).code
     } catch (e) {
-        throw new Error(`Error creating file: ${e}`)
+        throw new Error(`🚨 Error creating file: ${e}`)
     }
 
     return new Promise(async (resolve) => {
@@ -35,11 +35,11 @@ export async function createEdgeFunctions(
             })
         })
             .then((res) => {
-                console.log("Edge Function created successfully")
+                console.log("✅ Edge Function created successfully")
                 console.table({
-                    id: res.data.id,
-                    name: res.data.name,
-                    status: res.data.active
+                    name: res.data.results.name,
+                    id: res.data.results.id,
+                    active: res.data.results.active
                 })
                 resolve({
                     isSuccess: true,
@@ -48,7 +48,7 @@ export async function createEdgeFunctions(
             })
             .catch((erro) => {
                 console.error(
-                    "Error creating edge function",
+                    "🚨 Error creating edge function",
                     erro.response.data
                 )
                 resolve({
