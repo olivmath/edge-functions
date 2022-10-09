@@ -1,6 +1,6 @@
 # 🐺 Edge Functions
 
-Write, Test and Deploy your Edge Functions with `Azion Funks`
+**Simply** *write*, *test* and *deploy* your Edge Functions with `Azion Funcs`
 
 ![](/assets/mascote.png)
 
@@ -9,11 +9,11 @@ Write, Test and Deploy your Edge Functions with `Azion Funks`
 ## How to install
 
 ```
-npm i -g azion-funks
+npm i -g azion-funcs
 ```
 
 ```
-yarn add -g azion-funks
+yarn add -g azion-funcs
 ```
 
 ## How to works - 4 Steps
